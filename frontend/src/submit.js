@@ -71,7 +71,7 @@ export const SubmitButton = () => {
                   <h3 id="alert-title">Connection Error</h3>
                 </div>
                 <p className="alert-error-message">
-                  Could not reach the backend at <code>localhost:8000</code>.
+                  Could not reach the backend. Please ensure the server is running.
                   <br />
                   {result.error}
                 </p>
